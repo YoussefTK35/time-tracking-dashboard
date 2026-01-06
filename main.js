@@ -35,7 +35,7 @@ dailyTimeframe.addEventListener('click', event => {
             titles.forEach((title, index) => {
                 if (title.textContent == activity.title) {
                     currentTime[index].textContent = `${activity.timeframes.daily.current}hrs`;
-                    previousTime[index].textContent = `Last Day - ${activity.timeframes.daily.previous}hrs`;
+                    previousTime[index].textContent = `Yesterday - ${activity.timeframes.daily.previous}hrs`;
                 }
             });
         });
