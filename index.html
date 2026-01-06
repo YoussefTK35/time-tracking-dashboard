@@ -8,73 +8,120 @@
   
   <title>Frontend Mentor | Time tracking dashboard</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <div class="container">
+    <div class="profile-card">
+      <div class="profile-container">
+        <img src="/images/image-jeremy.png">
+        <div class="profile-info">
+          <p>Report for</p>
+          <h1>Jeremy Robson</h1>
+        </div>
+      </div>
+      <div class="timeframes-container">
+        <p id="daily">Daily</p>
+        <p id="weekly" class="active-timeframe">Weekly</p>
+        <p id="monthly">Monthly</p>
+      </div>
+    </div>
 
-  Report for
-  Jeremy Robson
+    <div class="card">
+      <div class="top-card">
+        <img src="/images/icon-work.svg" alt="work-icon">
+      </div>
+      <div class="main-card">
+        <div class="title-container">
+          <h3 id="title">Work</h3>
+          <img src="/images/icon-ellipsis.svg" alt="ellipsis-icon">
+        </div>
+        <div class="time-container">
+          <h1 id="current-time">32hrs</h1>
+          <p id="previous-time">Last Week - 36hrs</p>
+        </div>
+      </div>
+    </div>
 
-  Daily
-  Weekly
-  Monthly
+    <div class="card">
+      <div class="top-card">
+        <img src="/images/icon-play.svg" alt="play-icon">
+      </div>
+      <div class="main-card">
+        <div class="title-container">
+          <h3 id="title">Play</h3>
+          <img src="/images/icon-ellipsis.svg" alt="ellipsis-icon">
+        </div>
+        <div class="time-container">
+          <h1 id="current-time">10hrs</h1>
+          <p id="previous-time">Last Week - 8hrs</p>
+        </div>
+      </div>
+    </div>
 
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
+    <div class="card">
+      <div class="top-card">
+        <img src="/images/icon-study.svg" alt="study-icon">
+      </div>
+      <div class="main-card">
+        <div class="title-container">
+          <h3 id="title">Study</h3>
+          <img src="/images/icon-ellipsis.svg" alt="ellipsis-icon">
+        </div>
+        <div class="time-container">
+          <h1 id="current-time">4hrs</h1>
+          <p id="previous-time">Last Week - 7hrs</p>
+        </div>
+      </div>
+    </div>
 
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
-
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
-
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
-
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
-
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <div class="card">
+      <div class="top-card">
+        <img src="/images/icon-exercise.svg" alt="exercise-icon">
+      </div>
+      <div class="main-card">
+        <div class="title-container">
+          <h3 id="title">Exercise</h3>
+          <img src="/images/icon-ellipsis.svg" alt="ellipsis-icon">
+        </div>
+        <div class="time-container">
+          <h1 id="current-time">4hrs</h1>
+          <p id="previous-time">Last Week - 5hrs</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="top-card">
+        <img src="/images/icon-social.svg" alt="social-icon">
+      </div>
+      <div class="main-card">
+        <div class="title-container">
+          <h3 id="title">Social</h3>
+          <img src="/images/icon-ellipsis.svg" alt="ellipsis-icon">
+        </div>
+        <div class="time-container">
+          <h1 id="current-time">5hrs</h1>
+          <p id="previous-time">Last Week - 10hrs</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="top-card">
+        <img src="/images/icon-self-care.svg" alt="self-care-icon">
+      </div>
+      <div class="main-card">
+        <div class="title-container">
+          <h3 id="title">Self Care</h3>
+          <img src="/images/icon-ellipsis.svg" alt="ellipsis-icon">
+        </div>
+        <div class="time-container">
+          <h1 id="current-time">2hrs</h1>
+          <p id="previous-time">Last Week - 2hrs</p>
+        </div>
+      </div>
+    </div>
+    
   </div>
 </body>
 </html>
